@@ -1,0 +1,24 @@
+[tool.poetry]
+package-mode = false
+description = ""
+authors = [""]
+readme = "README.md"
+packages = [{include = "src"}]
+
+# Add your own dependencies here using "poetry add [dependency_name]"
+[tool.poetry.dependencies]
+# src = { path = "src" }
+python = ">=3.10,<3.11"
+ipykernel = "^6.29.5"
+# PyYAML = "^6.0"
+
+# Install Docs dependencies "poetry install --with docs"
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
