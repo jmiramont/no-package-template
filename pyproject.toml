@@ -7,10 +7,7 @@ packages = [{include = "src"}]
 
 # Add your own dependencies here using "poetry add [dependency_name]"
 [tool.poetry.dependencies]
-# src = { path = "src" }
-python = ">=3.10,<3.11"
-ipykernel = "^6.29.5"
-# PyYAML = "^6.0"
+python = ">=3.12,<3.14"
 
 # Install Docs dependencies "poetry install --with docs"
 [tool.poetry.group.docs]
